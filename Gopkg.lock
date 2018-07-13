@@ -155,8 +155,8 @@
     "ptypes/timestamp",
     "ptypes/wrappers"
   ]
-  revision = "925541529c1fa6821df4e44ce2723319eb2be768"
-  version = "v1.0.0"
+  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
+  version = "v1.1.0"
 
 [[projects]]
   branch = "master"
@@ -345,7 +345,9 @@
     "stats/view",
     "tag",
     "trace",
-    "trace/propagation"
+    "trace/propagation",
+    "zpages",
+    "zpages/internal"
   ]
   revision = "6e3f034057826b530038d93267906ec3c012183f"
   version = "v0.6.0"
@@ -507,9 +509,11 @@
     "encoding",
     "encoding/gzip",
     "encoding/proto",
-    "grpclb/grpc_lb_v1/messages",
     "grpclog",
     "internal",
+    "internal/backoff",
+    "internal/channelz",
+    "internal/grpcrand",
     "keepalive",
     "metadata",
     "naming",
@@ -522,8 +526,8 @@
     "tap",
     "transport"
   ]
-  revision = "1e2570b1b19ade82d8dbb31bba4e65e9f9ef5b34"
-  version = "v1.11.1"
+  revision = "168a6198bcb0ef175f7dacec0b8691fc141dc9b8"
+  version = "v1.13.0"
 
 [[projects]]
   name = "gopkg.in/gorp.v1"
@@ -534,6 +538,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "5a79210e8e95c30aba9a8e8d4b0b76c820bc5804aa2d0d7f461d2b3ca6280d37"
+  inputs-digest = "9e92a2b66a29a1580486c7fba708b4c115668d420a2424a98c4024acefc28d67"
   solver-name = "gps-cdcl"
   solver-version = 1
